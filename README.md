@@ -1,4 +1,4 @@
-##工具：
+## 工具：
 
 下载 [bsdiff ](http://www.daemonology.net/bsdiff/bsdiff-4.3.tar.gz) 
 
@@ -7,9 +7,9 @@
 NDK版本 ：r12
 
 
-###解压bsdiff，copy bspatch.c文件到android studio 的cpp目录下。
+### 解压bsdiff，copy bspatch.c文件到android studio 的cpp目录下。
 
-###解压bzip2：
+### 解压bzip2：
 
 ![001.png](http://upload-images.jianshu.io/upload_images/1157085-4953f7e9d055ede3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -17,11 +17,11 @@ NDK版本 ：r12
 
 ![002.png](http://upload-images.jianshu.io/upload_images/1157085-f5c74a6b366f696d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-###在bzip2目录下，创建一个CMakeLists.txt文件：
+### 在bzip2目录下，创建一个CMakeLists.txt文件：
 
 ![003.png](http://upload-images.jianshu.io/upload_images/1157085-ffcd72a0633986bd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-###在cpp目录下，创建一个CMakeLists.txt文件：
+### 在cpp目录下，创建一个CMakeLists.txt文件：
 
 ![004.png](http://upload-images.jianshu.io/upload_images/1157085-558c8229121619c0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -94,7 +94,7 @@ target_link_libraries( # Specifies the target library.
 ```
 
 
-###配置build.gradle
+### 配置build.gradle
 
 ```xml
 
@@ -122,7 +122,7 @@ target_link_libraries( # Specifies the target library.
 
 ```
 
-###编写调用函数
+### 编写调用函数
 
  创建类：
 ```code
