@@ -1,6 +1,9 @@
 ##工具：
+
 下载 [bsdiff ](http://www.daemonology.net/bsdiff/bsdiff-4.3.tar.gz) 
+
 下载[bzip2](http://www.bzip.org/downloads.html),
+
 NDK版本 ：r12
 
 
